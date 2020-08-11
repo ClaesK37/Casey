@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document voor showcase */
+
+/***GALLERY***/
+.gallery {
+    margin: 10px 50px;
+}
+.gallery img {
+    transition: 1s;
+    padding: 15Px;
+    width: 200px;
+}
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+/** ALGEMEEN***/
+/*typografie*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;            /*16px = 1em*/
+    line-height: 1.8em;
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;             /*32px = 2em 48px = 3em*//* 28px = 1.75em*/
+    color: rgb(25, 151, 63)
+}
+h2 {
+    font-size: 1.50em;
+    text-align: center;
+    color: whitesmoke;
+    display: table;;
+    margin: 1em auto 1em auto;
+    padding: 0.8em;            
+    background-color: rgb(36, 41, 41);
+    border-radius:2em 0;
+    box-shadow: rgb(25, 151, 63) 5px 5px;
+}
+h3 {
+    text-align: center;
+    font-size: 1.25em;     /*20px = 1.25em*/;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.naarBoven {
+    text-align: right;
+    color: rgb(25, 151, 63);
+}
+/***STRUCTUUR & kleurenschema's*/
+header {
+    background-color: whitesmoke;
+    border-bottom: double black;  
+    position: relative; 
+}
+#wikkel {
+    overflow: auto;
+}
+body {
+    background-color: white;
+    margin: 0;
+}
+.naarBoven {
+    padding: 0.5em;
+}
+footer {
+    text-align: center;
+    padding: 0;
+    background-color: whitesmoke;
+    border-top: double black;
+}
+footer img {
+    width: 2%;
+}
+/*** HOOFDMENU PHONE***/
+#topmenu {
+    list-style: none;
+    font-size: 0.875em; /* 14px = 1em */
+    text-align: center;
+    padding: 0; /* 0.5em = 6px */
+    margin: 0 1em;
+    width:auto;
+}
+#topmenu li {
+    display:block; /* onder elkaar */
+    margin:0;
+    padding: 0.4286em 1.1428em; /* 6px 16px */
+    border-bottom:1px solid rgb(36, 41, 41);
+    border-left:1px solid rgb(36, 41, 41);
+    border-right:1px solid rgb(36, 41, 41);
+}
+#topmenu li:first-child {
+    border-top:1px solid rgb(36, 41, 41);
+}
+#hoofdmenu a {
+    display: inline;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-style: italic;
+    color: #000000;
+}
+#topmenu ul li:hover, #topmenu ul li a:active {
+    color: #7c7b79;
+    text-decoration: none;
+} 
+
+
+
+
+/** EXTRA SMALL DEVICES */
+@media screen and (max-width: 600px) {
+}
+
+
+
+/* SMALL */
+@media screen and (min-width: 600px) {
+}
+
+
+/* MEDIUM */
+@media screen and (min-width: 768px) {
+}
+
+/*LARGE*/
+@media screen and (min-width: 992px) {
+    /**********DESKTOPS*******/
+    /***TOPMENU****/
+    #topmenu {
+        text-align:right;
+        margin-right: 0em;
+        padding: 0;  
+    }
+    .menubalk{
+        width:100%;
+        height:80px;
+        top:0px;
+        left:0px;
+    }
+    #topmenu li {
+        display:block; /* onder elkaar */
+        margin:0;
+        padding: 0.4286em 1.1428em; /* 6px 16px */
+        border-bottom: none;
+        border-left:1px none;
+        border-right: none;
+
+    }
+    #topmenu li:first-child {
+        border-top: none;
+    }
+    #topmenu ul {
+        list-style-type: none;
+        margin:0;
+        padding:0;
+    }
+    #topmenu ul li {display: inline;}
+    #topmenu ul li a {display: inline-block }
+    #topmenu ul li a {
+        display: inline-block;
+        width: 6em;
+        padding: 0.8em;
+        font-size: 1.5em;
+        font-style: italic;
+        color: #000000;
+        text-decoration: none;
+    }
+    #topmenu ul li a:hover, #topmenu ul li a:active {
+        color: #7c7b79;
+        text-decoration: none;
+    }
+    #wikkel {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/***EXTRA LARGE***/
+/*LARGE*/
+@media screen and (min-width: 1200px) {
+}

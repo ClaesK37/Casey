@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document voor showcase */
+
+
+/*typografie*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5em;
+}
+h2 {
+    font-style: italic;
+    font-size: 1.2em;
+}
+footer {
+    text-align: center;
+}
+
+
+/*kleurenschema's*/
+header {
+    background-color: whitesmoke;
+    border-bottom: double black;
+}
+body {
+    background-color: white;
+}
+footer {
+    background-color: whitesmoke;
+    border-top: double black;
+}
+
+/***ALGEMENE STRUCTUUR***/
+header {
+    width: 100%;
+    margin: 0 auto;
+}
+.wikkel {
+    width: 100%;
+    margin: 0 auto;
+}
+footer {
+    float: left;
+    padding: 0.5em;
+}
+
+
+
+/***TOPMENU****/
+#topmenu {
+    text-align:right;
+    margin-right: 5em;
+    padding: 0.5em;
+}
+#topmenu ul {
+    list-style-type: none;
+    margin:0;
+    padding:0.5em;
+}
+#topmenu ul li {display: inline;}
+#topmenu ul li a {display: inline-block }
+#topmenu ul li a {
+    display: inline-block;
+    width: 6em;
+    padding: 0.2em;
+    font-size: 1.5em;
+    font-style: italic;
+    color: #000000;
+    text-decoration: none;
+}
+#topmenu ul li a:hover, #topmenu ul li a:active {
+    color: #7c7b79;
+    text-decoration: none;
+}
+
+/*** OVER ***/
+
+
+#eigenfoto {
+    width: 20%;
+    height: 40%;
+    float: left;
+    margin: 5em;
+}
+ 
+
+
+
+
+
+
+/*werkervaringsgedeelte*/
+
+.CV {
+    border-top: double black;
+    border-bottom: double black;
+    margin-top: 2em;
+}
+.boom {
+    display: block;
+    width: 50%;
+}
+.bottom {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    top: 920px;
+    left: 855px;
+}
+.onderlinks {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    top: 750px;
+    left: 440px;
+}
+.middenlinks {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    top: 500px;
+    left: 600px;
+}
+.toplinks {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    top: 280px;
+    left: 570px;
+}
+.rechtsonder {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    top: 780px;
+    left: 1150px;
+}
+.rechtsmidden {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    top: 550px;
+    left: 1160px;
+}
+.rechtstop {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    top: 360px;
+    left: 1160px;
+}
+
+
+
+
+
+
+
+/*uittesten bolletjes*/
+.herinneringen li {  
+    list-style-type: none; 
+    margin: 0.2em;
+    padding-left: 2em;
+    background-image: url(../img/gear.jpg);
+    background-repeat: no-repeat;
+    background-position: 0.1em center;
+    background-size:unset;
+}
+
+
+
+/*** CONTACT FORMULIER ***/
+.contactnemen {
+    border-top: 1px solid black;
+    background: rgb(36, 41, 41);
+    margin: 0;
+    padding: 7em;
+    text-align: center;
+}
+.contactnemen > h1 {
+    color: gray;
+}
+.layoutform {
+    width: 800px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(25, 151, 63);
+    font-size: 18px;
+    margin-bottom: 16px;
+    padding-left: 15px;
+}
+input {
+    height: 45px;
+}
+
+/*** PORTFOLIO ***/
+.Portfolio {
+    clear: both;
+    margin: 0;
+    padding: 5em 0 20em 0;
+}
+.Portfolio > div{
+    width: 26%;
+    text-align: center;
+    margin: 2em;
+    padding: 2em;
+    border: 2px solid rgb(25, 151, 63);
+    float: left;
+}
+.div a {
+    font-style: italic;
+    color: #000000;
+    text-decoration: none;
+}
+.Portfolio a:hover, .Portfolio a:active {
+    color: #7c7b79;
+    text-decoration: none;
+}
+}
+
+
+
