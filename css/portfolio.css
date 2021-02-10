@@ -52,6 +52,10 @@ a {
     text-align: right;
     color: rgb(25, 151, 63);
 }
+#link  {
+    color: rgb(25, 151, 63)
+}
+
 /***STRUCTUUR & kleurenschema's*/
 header {
     background-color: whitesmoke;
